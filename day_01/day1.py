@@ -17,10 +17,7 @@ def get_elves_calories(filename: str):
 
 def sum_list_topn(list: list, n: int):
     sorted_list = sorted(list)
-    sum = 0
-    for i in range(-1, -1-n, -1):
-        sum += sorted_list[i]
-    return sum
+    return sum(sorted_list[-n:])
 
 def puzzle1(filename: str):
     elves_calories = get_elves_calories(filename)
@@ -30,7 +27,7 @@ def puzzle2(filename: str):
     elves_calories = get_elves_calories(filename)
     return sum_list_topn(elves_calories, 3)
 
-input = 'day_one\\input_day1.txt'
+input = 'day_01\\input_day1.txt'
 
-print(puzzle1(input))
-print(puzzle2(input))
+print("Puzzle 1: " + str(puzzle1(input)))
+print("Puzzle 2: " + str(puzzle2(input)))

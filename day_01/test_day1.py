@@ -1,7 +1,7 @@
 import day1
 
-test_input = 'day_one\\test_input_day1.txt'
-input = 'day_one\\input_day1.txt'
+test_input = 'day_01\\test_input_day1.txt'
+input = 'day_01\\input_day1.txt'
 
 def test_puzzle1():
     assert day1.puzzle1(test_input) == 24000
