@@ -56,4 +56,3 @@ input = 'day_03\\input_day3.txt'
 
 print("Puzzle 5: " + str(puzzle_5(input)))
 print("Puzzle 6: " + str(puzzle_6(input)))
-
