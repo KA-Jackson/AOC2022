@@ -30,7 +30,5 @@ def test_data_12_4():
 def test_data_12_5():
     assert day6.find_marker('zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw', 14) == 26
 
-
-
 input = 'day_05\\input_day5.txt'
 test_input = 'day_05\\test_input_day5.txt'
